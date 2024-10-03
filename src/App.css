@@ -1,0 +1,23 @@
+.main{
+  
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  width: 100%;
+ .done{
+  background-color: green;
+  cursor: pointer;
+ }
+ .donebtn{
+  padding-bottom: 5px;
+ }
+ .failbtn{
+  padding-top: 5px;
+ }
+ .failed{
+  background-color: red;
+  cursor: pointer;
+ }
+}
