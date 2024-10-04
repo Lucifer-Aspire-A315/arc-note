@@ -53,7 +53,7 @@ function App() {
         <th><BsFillSunriseFill color='#f76319' size='50px' /></th>
         <th><FaBottleWater color='#6394f7' size='50px'/></th>
         <th><FaRunning color='#520109' size='50px'/></th>
-        <th><GiBiceps color='#965c21' size='50px'/></th>
+        <th><GiBiceps color='#f5b958' size='50px'/></th>
         <th><FaDumbbell color='#4f0701' size='50px'/></th>
         <th><GiMeditation color='#54a876' size='50px'/></th>
         <th><FaBookOpen color='white' size='50px'/></th>
@@ -77,9 +77,10 @@ function App() {
         </table>
       
       </div>
+      <center>
       <button onClick={handleAddData} style={{color:'black',background:'lightgreen',minWidth:'100px',padding:'10px',borderRadius:'10px',cursor:'pointer',margin:'10px'}}>Add Data</button>
       <button onClick={() => setTableData([])} style={{color:'black',background:'lightgreen',minWidth:'100px',padding:'10px',borderRadius:'10px',cursor:'pointer',margin:'10px'}}>Clear Data</button>
-
+      </center>
       {tableData.map((row, index) => (
             <div style={{background:'#141212',padding:'10px',borderRadius:'10px',margin:'10px',width:'100'}} key={index}>
               
